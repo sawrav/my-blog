@@ -1,0 +1,176 @@
+.aboutPage {
+  background-color: var(--aws-bg-light);
+  min-height: 100vh;
+}
+
+/* ── Hero ──────────────────────────────────────────────────────── */
+.hero {
+  background: linear-gradient(135deg, var(--aws-navy) 0%, #31475e 100%);
+  padding: 4rem 1rem;
+  border-bottom: 4px solid var(--aws-orange);
+  text-align: center;
+}
+
+.heroInner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.avatarWrapper {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 1.25rem;
+  border: 3px solid var(--aws-orange);
+}
+
+.avatarSvg {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+}
+
+.tagline {
+  color: #d5dbdb;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.socialRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.socialLink {
+  color: var(--aws-orange) !important;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.socialLink:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  color: #546e7a;
+}
+
+/* ── Content ───────────────────────────────────────────────────── */
+.content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--aws-navy);
+  border-bottom: 2px solid var(--aws-orange);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+[data-theme="dark"] .section h2 {
+  color: #e8eaed;
+}
+
+.section p {
+  line-height: 1.75;
+  color: var(--aws-text);
+}
+
+/* ── Topics grid ───────────────────────────────────────────────── */
+.topicsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.topicCard {
+  background: var(--aws-bg-card);
+  border: 1px solid var(--aws-border);
+  border-radius: 6px;
+  padding: 1.5rem;
+  border-top: 3px solid var(--aws-orange);
+  transition: box-shadow 0.2s ease;
+}
+
+.topicCard:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.topicIcon {
+  font-size: 1.75rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.topicCard h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--aws-navy);
+  margin: 0 0 0.5rem;
+}
+
+[data-theme="dark"] .topicCard h3 {
+  color: #e8eaed;
+}
+
+.topicCard p {
+  font-size: 0.875rem;
+  color: var(--aws-text-secondary);
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.topicCard a {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--aws-tag-text) !important;
+  text-decoration: none;
+}
+
+.topicCard a:hover {
+  color: var(--aws-orange) !important;
+}
+
+/* ── Feed buttons ──────────────────────────────────────────────── */
+.feedRow {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.feedBtn {
+  display: inline-block;
+  padding: 8px 18px;
+  background-color: var(--aws-orange);
+  color: var(--aws-navy) !important;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease;
+}
+
+.feedBtn:hover {
+  background-color: var(--aws-orange-hover);
+}

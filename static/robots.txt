@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sawravroy.github.io/my-blog/sitemap.xml

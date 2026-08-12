@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#232F3E"/>
+  <!-- Bottom orange bar -->
+  <rect y="590" width="1200" height="40" fill="#FF9900"/>
+  <!-- Top accent -->
+  <rect width="1200" height="6" fill="#FF9900"/>
+
+  <!-- Title text -->
+  <text x="80" y="260" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF">
+    Sawrav Roy
+  </text>
+  <text x="80" y="330" font-family="Arial, sans-serif" font-size="32" fill="#d5dbdb">
+    Thoughts on Science, Engineering &amp; Philosophy
+  </text>
+
+  <!-- Decorative circle -->
+  <circle cx="1060" cy="220" r="140" fill="none" stroke="#FF9900" stroke-width="4" opacity="0.3"/>
+  <circle cx="1060" cy="220" r="100" fill="none" stroke="#FF9900" stroke-width="2" opacity="0.5"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#232F3E"/>
+  <!-- Stylised "SR" monogram -->
+  <!-- S curve -->
+  <path d="M20 22 C20 18 26 16 30 19 C34 22 28 26 28 30 C28 34 34 36 34 40 C34 44 28 46 24 43"
+        stroke="#FF9900" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- R stem -->
+  <line x1="38" y1="18" x2="38" y2="46" stroke="#FF9900" stroke-width="3" stroke-linecap="round"/>
+  <!-- R bump -->
+  <path d="M38 18 C44 18 47 22 47 26 C47 30 44 33 38 33" 
+        stroke="#FF9900" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- R leg -->
+  <line x1="38" y1="33" x2="47" y2="46" stroke="#FF9900" stroke-width="3" stroke-linecap="round"/>
+</svg>
