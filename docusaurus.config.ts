@@ -14,7 +14,7 @@ const config: Config = {
   baseUrl: "/my-blog/",
 
   // GitHub pages deployment config
-  organizationName: "sawravroy", // Your GitHub username
+  organizationName: "sawrav", // Your GitHub username
   projectName: "my-blog", // Your GitHub repo name
   trailingSlash: false,
 
