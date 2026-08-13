@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # my-blog
 Sawrav's BlogSite
 =======
@@ -272,4 +271,3 @@ my-blog/
 │       └── deploy.yml             # GitHub Actions deployment
 └── docusaurus.config.ts           # Main site configuration
 ```
->>>>>>> 31c9cba (Initial commit)

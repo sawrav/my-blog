@@ -1,10 +1,10 @@
 sawravroy:
   name: Sawrav Roy
   title: Engineer & Writer
-  url: https://github.com/sawravroy
-  image_url: https://github.com/sawravroy.png
+  url: https://github.com/sawrav
+  image_url: /img/sawravroy.png
   page: true
   socials:
-    github: sawravroy
+    github: sawrav
     linkedin: sawravroy
     x: sawravroy
