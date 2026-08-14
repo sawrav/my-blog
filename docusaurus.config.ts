@@ -86,7 +86,7 @@ const config: Config = {
       title: "Sawrav Roy",
       logo: {
         alt: "Sawrav Roy Blog",
-        src: "img/logo.svg",
+        src: "img/carlj.png",
       },
       items: [
         { to: "/", label: "Blog", position: "left" },
